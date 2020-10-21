@@ -46,7 +46,7 @@ const App: () => React$Node = () => {
                                 Edit{' '}
                                 <Text style={styles.highlight}>App.js</Text> to
                                 change this screen and then come back to see
-                                your edits. BLING BLING
+                                your edits. BLING BLING BLINGU_U
                             </Text>
                         </View>
                         <View style={styles.sectionContainer}>
