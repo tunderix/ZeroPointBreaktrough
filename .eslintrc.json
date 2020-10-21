@@ -1,12 +1,15 @@
 {
     "env": {
+        "commonjs": true,
+        "node": true,
         "browser": true,
         "es6": true,
-        "node": true
+        "jest": true
     },
     "extends": [
         "@react-native-community",
         "airbnb-typescript",
+        "eslint:recommended",
         "prettier",
         "prettier/@typescript-eslint",
         "prettier/react"
