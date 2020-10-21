@@ -77,12 +77,14 @@ const App: () => React$Node = (): JSX.Element => {
                     <Header />
                     {global.HermesInternal == null ? null : (
                         <View style={styles.engine}>
-                            <Text style={styles.footer}>Engine: Hermes</Text>
+                            <Text style={styles.footer}>
+                                Engine: Hermes Mushi Mushi
+                            </Text>
                         </View>
                     )}
                     <View style={styles.body}>
                         <View style={styles.sectionContainer}>
-                            <Text style={styles.sectionTitle}>Step One</Text>
+                            <Text style={styles.sectionTitle}>Step Onex</Text>
                             <Text style={styles.sectionDescription}>
                                 Edit{' '}
                                 <Text style={styles.highlight}>App.js</Text> to
