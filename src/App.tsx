@@ -1,11 +1,3 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * @format
- * @flow strict-local
- */
-
 import React from 'react';
 import {
     SafeAreaView,
@@ -17,7 +9,6 @@ import {
 } from 'react-native';
 
 import {
-    Header,
     LearnMoreLinks,
     Colors,
     DebugInstructions,
@@ -63,9 +54,7 @@ const styles = StyleSheet.create({
     }
 });
 
-// FIX This temporary disable later.
-// eslint-disable-next-line no-undef
-const App: () => React$Node = (): JSX.Element => {
+const App = (): React.ReactElement => {
     return (
         <>
             <StatusBar barStyle="dark-content" />
@@ -74,14 +63,6 @@ const App: () => React$Node = (): JSX.Element => {
                     contentInsetAdjustmentBehavior="automatic"
                     style={styles.scrollView}
                 >
-                    <Header />
-                    {global.HermesInternal == null ? null : (
-                        <View style={styles.engine}>
-                            <Text style={styles.footer}>
-                                Engine: Hermes Mushi Mushi
-                            </Text>
-                        </View>
-                    )}
                     <View style={styles.body}>
                         <View style={styles.sectionContainer}>
                             <Text style={styles.sectionTitle}>Step Onex</Text>
