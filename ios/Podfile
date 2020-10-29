@@ -3,12 +3,12 @@ require_relative '../node_modules/@react-native-community/cli-platform-ios/nativ
 
 platform :ios, '10.0'
 
-target 'ZPB' do
+target 'ZeroPointBreakthrough' do
   config = use_native_modules!
 
   use_react_native!(:path => config["reactNativePath"])
 
-  target 'ZPBTests' do
+  target 'ZeroPointBreakthroughTests' do
     inherit! :complete
     # Pods for testing
   end
@@ -23,10 +23,10 @@ target 'ZPB' do
   end
 end
 
-target 'ZPB-tvOS' do
-  # Pods for ZPB-tvOS
+target 'ZeroPointBreakthrough-tvOS' do
+  # Pods for ZeroPointBreakthrough-tvOS
 
-  target 'ZPB-tvOSTests' do
+  target 'ZeroPointBreakthrough-tvOSTests' do
     inherit! :search_paths
     # Pods for testing
   end

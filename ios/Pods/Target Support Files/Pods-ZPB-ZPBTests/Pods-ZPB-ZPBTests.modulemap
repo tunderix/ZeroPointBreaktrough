@@ -1,6 +1,0 @@
-module Pods_ZPB_ZPBTests {
-  umbrella header "Pods-ZPB-ZPBTests-umbrella.h"
-
-  export *
-  module * { export * }
-}
