@@ -27,13 +27,14 @@
     },
     "include": [
         "src/**/*.ts",
-        "src/*/*.tsx",
+        "src/**/*.tsx",
         "storybook/**/*.ts",
         "storybook/**/*.tsx",
         "**/*.config.js",
         "App.tsx",
         "index.js",
         "__tests__/*.tsx",
-        "storybook/*.js"
+        "**/*.js",
+        "**/*.jsx"
     ]
 }

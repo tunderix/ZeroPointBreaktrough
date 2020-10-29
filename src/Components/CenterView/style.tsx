@@ -1,4 +1,4 @@
-export default {
+const style = {
     main: {
         flex: 1,
         justifyContent: 'center',
@@ -6,3 +6,5 @@ export default {
         backgroundColor: '#F5FCFF'
     }
 };
+
+export default style;
